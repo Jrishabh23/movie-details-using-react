@@ -1,0 +1,78 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  /* margin: auto; */
+  text-align: center;
+  font-family: arial;
+  padding: 20px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+.form-control {
+    border: none;
+  outline: 0;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+button {
+  color: white;
+  background-color: #000;
+  text-align: center;
+}
+.search-box {
+    width: 60%;
+    height: 40px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+.contact-form{
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    position: sticky;
+    top: 5%;
+}
+.repo-details {
+    text-align: center;
+}
+.user-git-details {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.user-card {
+    position: sticky;
+    top: 15%;
+}
+.cardDetails {
+    display: flex;
+    gap:30px;
+    flex-wrap: wrap;
+    margin: 0 10% 15%;
+    justify-content: center;
+    gap: 5%;
+}
+
+.btn{
+    padding: 20px;
+}
+.btn-navigation{
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    margin: 10px;
+}
